@@ -1,0 +1,23 @@
+{
+  "name": "cosmollage",
+  "version": "1.0.5",
+  "description": "A collage maker",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "sudo npm i node-pre-gyp -g && sudo npm i canvas --build-from-source",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "cosmollage",
+    "collage",
+    "cosmos",
+    "maker",
+    "image"
+  ],
+  "author": "Erdem Ayaz",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "node-pre-gyp": "^0.14.0"
+  }
+}
